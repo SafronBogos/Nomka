@@ -1,0 +1,98 @@
+body {
+	font-family: Arile, Helvelica, sans-serif; 
+	font-size: 15px;
+	line-height: 1.6em;
+	padding: 0;
+	background-color: #f4f4f4
+}
+
+header {
+	background-color: #273746;
+	color:#ffffff;
+	min-height: 70px;
+	border-bottom: #E67E22  3px solid;
+}
+
+.container {
+	padding-top: 15px;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.containerForContacts{
+
+	display: flex;
+	flex-direction: column;
+	line-height: 0.8em;
+	text-align: right;
+	color: #FFB300;
+	}
+
+.containerForContacts span {
+	margin-bottom: 15px;
+}
+
+
+.branding h1{
+	color: #e8491d;
+	font-size: 2em;
+	margin-bottom: 15px;
+}
+
+.branding h3{
+	font-size: 1.17em;
+}
+
+.navbar{
+	width: 80%;
+	height: 40px;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar ul{
+	text-decoration: none;
+}
+
+.navbar li{
+		display: inline;
+		text-decoration: none;
+}
+
+.navbar li a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar li a:hover{
+	text-shadow: 1px 1px 2px white, 0 0 0em black;
+}
+
+.image {
+	margin:auto;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+.image {
+	width: 100%;
+}
+
+.text h1{
+	color: #e8491d;
+}
+
+.text span{
+	font-weight: bold;
+}
+
